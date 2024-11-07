@@ -4,7 +4,19 @@
   <groupId>on-focus0147</groupId>
   <artifactId>algorithms_tasks</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <version>1.0-SNAPSHOT</version>
   <name>algorithms_tasks</name>
   <url>http://maven.apache.org</url>
   <dependencies>

@@ -1,7 +1,5 @@
 package on.focus0147.arrays;
 
-import java.util.Arrays;
-
 public class BoyerMooreMajorityVote {
 
     /**

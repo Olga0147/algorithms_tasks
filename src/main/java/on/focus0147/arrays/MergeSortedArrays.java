@@ -27,7 +27,7 @@ public class MergeSortedArrays {
     }
 
     /**
-     * O((l1+l2) log(l1+l2)) из-за sort
+     * O((l1+l2) + log(l1+l2)) из-за sort
      */
     public static int[] mergeSort(int[] nums1, int l1, int[] nums2, int l2) {
 
