@@ -4,8 +4,6 @@ public class IntToRomanSimple {
 
 
     public static void main(String[] args){
-       // int[] nums1 = {1,2,2};
-
         System.out.println("res = " + intToRoman(1994));
     }
 
