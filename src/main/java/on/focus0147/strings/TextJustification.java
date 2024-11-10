@@ -36,8 +36,8 @@ public class TextJustification {
                 //распределим между ними пробелы
                 int spacesNeeded = maxWidth - sum;
                 int wordsBetween = currentEnd - currentStart ;
-                int each = spacesNeeded/wordsBetween;
-                int left = spacesNeeded%wordsBetween;
+                int each = wordsBetween == 0 ? 0: spacesNeeded/wordsBetween;
+                int left = wordsBetween == 0 ? 0: spacesNeeded%wordsBetween;
                 //создадим строку
                 StringBuilder sb = new StringBuilder();
                 for(int i = currentStart; i<= currentEnd; i++){
